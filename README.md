@@ -11,7 +11,7 @@ Before everything setup this technologies;
 If you want to test other game go `App.js` file in the project root and change the `src` prop link on `<WebView/>` component.
 
 ### Development
-If you want to test the app in your computer on a simulator.
+If you want to test the app in your computer on a simulator.<br/>
 Enter project root and run: `react-native run-android` or `react-native run-ios`
 
 ### Building
@@ -24,6 +24,9 @@ Enter project root and run: `react-native run-android` or `react-native run-ios`
     I will post it later.
 
 *cotact me for any problem*
+<br />
 Hamza Ali TAŞ
+<br />
 email: hamzalitas95@gmail.com
+<br />
 tel: +905545077657
