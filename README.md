@@ -1,6 +1,6 @@
 # DEMO RECAT NATIVE MOBILE APPLICATION
 
-## Instrunctions
+## Instructions
 
 Before everything setup this technologies;
 - Node
