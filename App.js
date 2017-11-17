@@ -3,7 +3,7 @@
  */
 
 import React, { Component } from "react";
-import { StyleSheet, View, StatusBar, WebView, Text } from "react-native";
+import { StyleSheet, View, StatusBar, WebView } from "react-native";
 
 export default class App extends Component<{}> {
   render() {
@@ -11,6 +11,7 @@ export default class App extends Component<{}> {
       <View style={styles.container}>
         <WebView
           source={{
+            // Change this this value in order to test other games.
             uri:
               "https://hosting.backand.io/flash/flash/flashland/testpixi/index.html"
           }}
