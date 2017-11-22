@@ -57,10 +57,16 @@ export default class App extends Component<{}> {
             source={{
               uri: this.state.testUri
             }}
-            style={{ height: 100, width: 1000 }}
+            scalesPageToFit={true}
+            automaticallyAdjustContentInsets={true}
+            style={{ flex: 1 }}
             onMessage={event => {
               const { data } = event.nativeEvent;
-              Alert.alert(data);
+              if (data === "QUIT_GAME") {
+                this.setState({ isWebViewOpen: false });
+              } else {
+                Alert.alert(data);
+              }
             }}
           />
         )}
